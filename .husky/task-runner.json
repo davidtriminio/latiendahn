@@ -1,0 +1,18 @@
+{
+  "tasks": [
+    {
+      "name": "backend-format",
+      "group": "pre-commit",
+      "command": "dotnet",
+      "args": ["format", "backend/latiendahn.slnx", "--include", "${staged}"],
+      "include": ["backend/**/*.cs"]
+    },
+    {
+      "name": "frontend-lint",
+      "group": "pre-commit",
+      "command": "pnpm",
+      "args": ["-C", "frontend", "lint"],
+      "include": ["frontend/**/*.ts", "frontend/**/*.html"]
+    }
+  ]
+}

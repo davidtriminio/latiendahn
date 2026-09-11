@@ -1,0 +1,10 @@
+packages:
+  - frontend
+
+# Permitir que estas dependencias ejecuten sus scripts de build (binarios nativos) durante la
+# instalacion. pnpm 10+ los bloquea por defecto; aqui se aprueban para que 'pnpm install' no falle.
+onlyBuiltDependencies:
+  - "@parcel/watcher"
+  - esbuild
+  - lmdb
+  - msgpackr-extract

@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BuildingBlocks/latiendahn.BuildingBlocks/latiendahn.BuildingBlocks.csproj" />
+    <Project Path="src/BuildingBlocks/latiendahn.Infrastructure/latiendahn.Infrastructure.csproj" />
+    <Project Path="src/Api/latiendahn.Api/latiendahn.Api.csproj" />
+    <Project Path="src/Modules/Sample/latiendahn.Modules.Sample/latiendahn.Modules.Sample.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/latiendahn.ArchitectureTests/latiendahn.ArchitectureTests.csproj" />
+    <Project Path="tests/latiendahn.Modules.Sample.Tests/latiendahn.Modules.Sample.Tests.csproj" />
+  </Folder>
+</Solution>

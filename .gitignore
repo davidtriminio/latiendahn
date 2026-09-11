@@ -1,0 +1,31 @@
+## .NET
+[Bb]in/
+[Oo]bj/
+*.user
+artifacts/
+
+## EF / runtime
+*.db
+
+## Node / Angular
+node_modules/
+dist/
+.angular/
+out-tsc/
+*.tsbuildinfo
+
+## Playwright
+frontend/test-results/
+frontend/playwright-report/
+
+## Env / secrets
+.env
+*.local
+
+## IDE / OS
+.vs/
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+Thumbs.db
