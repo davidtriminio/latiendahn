@@ -22,7 +22,7 @@ Aplicacion full-stack: backend en .NET 10 (monolito modular) y frontend en Angul
      --project backend/src/Modules/Sample/latiendahn.Modules.Sample \
      --startup-project backend/src/Api/latiendahn.Api
    ```
-3. API: `dotnet run --project backend/src/Api/latiendahn.Api`  →  http://localhost:8080
+3. API: `dotnet run --project backend/src/Api/latiendahn.Api`  →  http://localhost:5080
 4. Frontend: `cd frontend && pnpm install && pnpm start`  →  http://localhost:4200
 
 ## Git hooks (Husky.NET)
